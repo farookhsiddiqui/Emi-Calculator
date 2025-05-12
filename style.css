@@ -1,0 +1,93 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container
+{
+    background-color: aliceblue;
+    max-width: 500px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
+    padding: 20px;
+}
+.container:hover
+{
+    background-color: rgb(209, 168, 168);
+}
+.header
+{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.loan-amount-info
+{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.interest-rate-info
+{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.months-to-pay-info
+{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+input
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    font-size:1.2rem;
+    border: none;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.1);
+
+}
+button{
+    width: 120px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: crimson;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+}
+button:hover{
+    background-color: rgb(14, 15, 15);
+    cursor: pointer;
+}
+.result
+{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#emi
+{
+    color:crimson
+}
